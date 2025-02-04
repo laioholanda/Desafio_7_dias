@@ -1,0 +1,26 @@
+.metricas{
+    display: flex;
+    padding: 1rem 8rem;
+    gap: 2rem;
+}
+
+.metricas__itens{
+    width: 60%;
+}
+.metr__itens__numero{
+    font-size: 3.75rem;
+    color: var(--cor-secundaria);
+    font-weight: 600;
+}
+
+.metr__itens__titulo{
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
+.metr__itens__texto{
+    color: var(--cor-principal-letras);
+    font-weight: 400;
+    line-height: 1.5rem;
+}

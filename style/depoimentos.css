@@ -1,0 +1,41 @@
+.depoimentos{
+    padding: 0rem 8rem;
+    text-align: center;
+    margin: 10rem 0;
+}
+
+.depoimentos__informativo{
+    font-size: 0.875rem;
+    color: var(--cor-secundaria);
+    font-weight: 600;
+}
+
+.depoimentos__tema{
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin: 1.5rem 0 2.5rem 0;
+    line-height: 2.5rem;
+}
+
+.perfil__foto{
+    width: 5rem;
+    height: 5rem;
+}
+
+.depoimentos__perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil__nome{
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 1.5rem 0 0.5rem 0;
+}
+
+.perfil__funcao{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var( --cor-principal-letras);
+}

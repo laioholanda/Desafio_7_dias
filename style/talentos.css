@@ -1,0 +1,31 @@
+.talentos{
+    padding: 1rem 8rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.talentos__desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.talentos__tema{
+   font-size:  0.875rem;
+   color: var(--cor-secundaria);
+   font-weight: 500;
+}
+
+.talentos__titulo{
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.talentos__texto{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--cor-principal-letras);
+}

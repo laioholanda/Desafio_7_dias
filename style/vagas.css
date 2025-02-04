@@ -1,0 +1,32 @@
+.vagas{
+    padding: 0rem 20rem;
+    margin: 3rem 0;
+}
+
+.vagas__tema{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.vag__tema__titulo{
+    padding-left: 2rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.descr__detalhes{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.detalhes__cargo{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--cor-principal-letras);
+}
+
+.vagas__tema,.vag__tema__titulo,.tem__titulo__descricao{
+    margin-top: 4rem;
+}
+

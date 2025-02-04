@@ -1,0 +1,24 @@
+.cabecalho{
+    padding: 5rem 2rem;
+    text-align: center;
+
+}
+
+.cabecalho__inform{
+    color: var(  --cor-secundaria);
+    font-weight: 600;
+}
+
+.cabecalho__titulo{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 2.5rem 0;
+}
+
+.cabecalho__texto{
+    font-size: 1.25rem;
+    color: var(--cor-principal-letras);
+    font-weight: 400;
+    padding: 0 18rem;
+    line-height: 2rem;
+}

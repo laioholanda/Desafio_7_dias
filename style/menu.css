@@ -1,0 +1,49 @@
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 8rem;
+}
+.navegacao__itens{
+    margin-right: 6rem;
+}
+
+.navegacao__itens,
+.navegacao__lista{
+    display: flex;
+    align-items: center;
+}
+
+.nav__itens__link,
+.nav__list__itens__link{
+    text-decoration: none;
+    color: var(--cor-principal-letras);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.central{
+    margin-right: auto;
+}
+
+.nav__lista__itens{
+    margin-right: 2rem;
+}
+
+.nav__itens__link{
+    margin-right: 0.3rem;
+}
+
+.cadastrar{
+    background-color: var(--cor-secundaria);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: var(--cor-de-fundo);
+}
+
+.botoes:hover{
+    color: var(--cor-secundaria);
+}
+
+.cadastrar:hover{
+    background-color: black;
+}
